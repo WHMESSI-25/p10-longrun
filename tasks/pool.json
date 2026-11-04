@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "note": "任务池：基线 JD 轮转 + 每日刁难变体。normal 长度 6 与 stress 长度 10 互质，最小公倍数 30，因此 24 天内「JD × 变体」组合不会重复，避免同一种失败被重复计数。",
+  "normal": [
+    { "id": "n1", "file": "data/jd/1.md", "label": "数据分析实习（完全匹配）" },
+    { "id": "n2", "file": "data/jd/2.md", "label": "后端开发实习（部分匹配）" },
+    { "id": "n3", "file": "data/jd/3.md", "label": "建筑方案设计（明显不匹配）" },
+    { "id": "n4", "file": "data/jd/4-prose.md", "label": "散文型 JD（无硬条件）" },
+    { "id": "n5", "file": "data/jd/5-long.md", "label": "超长噪声 JD" },
+    { "id": "n6", "file": "data/jd/6-senior.md", "label": "高级岗（年限门槛）" }
+  ],
+  "stress": [
+    { "kind": "tail_inject", "label": "末尾埋指令" },
+    { "kind": "authority", "label": "权威施压" },
+    { "kind": "dup_condition", "label": "重复条件" },
+    { "kind": "cn_number", "label": "中文数字" },
+    { "kind": "as_table", "label": "表格化" },
+    { "kind": "mixed_lang", "label": "中英混排" },
+    { "kind": "no_newline", "label": "无换行" },
+    { "kind": "zero_width", "label": "零宽字符" },
+    { "kind": "truncate", "label": "截断残篇" },
+    { "kind": "long_text", "label": "超长文本" }
+  ],
+  "rules": {
+    "max_jd_chars_for_long_text": 8000,
+    "note": "JD 本身已超 8000 字时跳过 long_text 变体（否则约 200 万字，纯烧钱），顺延到下一个变体"
+  }
+}

@@ -1,0 +1,89 @@
+name: 每日长跑
+
+on:
+  schedule:
+    # UTC 00:00 = 北京 08:00。长跑要挑「人还没起床」的时候跑，
+    # 出问题早上看到 Issue 就能处理。
+    - cron: "0 0 * * *"
+  workflow_dispatch:        # 随时手动触发一次
+
+permissions:
+  contents: write           # 提交留痕
+  issues: write             # 失败自动开 issue
+
+concurrency:
+  group: daily-longrun
+  cancel-in-progress: false  # 宁可排队也不许掐掉正在跑的那一次
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+
+      - name: 安装依赖
+        run: pip install -r requirements.txt
+
+      - name: 跑今天这一组
+        env:
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          DAILY_COST_LIMIT: "1.0"
+        run: python runner.py
+
+      - name: 生成看板
+        if: always()
+        run: python scripts/gen_dashboard.py
+
+      # 失败时更要提交：失败记录本身就是这个项目的产出
+      - name: 提交留痕
+        if: always()
+        run: |
+          git config user.name "p10-longrun-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add runs stats dashboard
+          if git diff --cached --quiet; then
+            echo "没有变化，跳过提交"
+          else
+            git commit -m "长跑留痕 $(TZ=Asia/Shanghai date +%Y-%m-%d)"
+            git push
+          fi
+
+      - name: 失败开 Issue
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            let st = {};
+            try { st = JSON.parse(fs.readFileSync('stats/stats.json', 'utf8')); } catch (e) {
+              core.warning('读不到 stats.json，可能是 runner 启动前就挂了');
+            }
+            const f = (st.failures || []).slice(-1)[0] || {};
+            const title = `[长跑失败] ${f.date || new Date().toISOString().slice(0,10)} ${f.category_cn || '未归类'}`;
+            const { data: existed } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner, repo: context.repo.repo,
+              labels: 'longrun-failure', state: 'all', per_page: 30
+            });
+            if (existed.some(i => i.title === title)) {
+              core.info('同标题 issue 已存在，不重复开');
+              return;
+            }
+            await github.rest.issues.create({
+              owner: context.repo.owner, repo: context.repo.repo,
+              title,
+              labels: ['longrun-failure'],
+              body: [
+                '## 现象', '```', f.detail || '（无记录，看 Actions 日志）', '```',
+                '## 分类', `${f.category_cn || '未归类'}（${f.category || 'unknown'}）`,
+                '## 任务', `${f.jd || '?'} / 变体 ${f.stress || '无'}`,
+                '## 下一步', f.fix_hint || '看 Actions 日志定位',
+                '', `运行环境：${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`
+              ].join('\n')
+            });

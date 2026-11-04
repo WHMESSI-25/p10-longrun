@@ -1,0 +1,7 @@
+# 虚拟环境不进仓库
+.venv/
+__pycache__/
+*.pyc
+
+# 本地调试产物
+.deploy-tmp/
