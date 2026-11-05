@@ -1,0 +1,362 @@
+{
+  "run_id": "20261105-004614-a191",
+  "status": "done",
+  "input": {
+    "jd": "# 岗位：建筑方案设计师（明显不匹配样例，用于验证低分劝退分支）\n\n公司：某建筑设计院\n\n## 岗位要求\n## 岗位要求\n## 岗位要求\n## 岗位要求\n## 岗位要求\n1. 建筑学专业本科及以上学历，五年制优先\n2. 熟练使用 AutoCAD、SketchUp、Rhino 完成方案建模\n3. 具备手绘表达能力，能快速输出概念草图\n4. 了解国家建筑设计规范与报建流程\n5. 有实际落地方案作品集（不少于 3 个项目）\n\n## 加分项\n- 有甲级设计院实习经历\n- 获得过省市级建筑设计竞赛奖项\n- 会使用 Lumion 或 Enscape 做效果图渲染\n\n## 工作内容\n参与公共建筑项目的方案设计与汇报文件制作\n",
+    "resume": "# 陈小雨｜数据方向实习求职简历（虚构样例，仅用于测试）\n\n## 教育\n汕头大学 数据科学与大数据技术 本科 2023.09-2027.06\n主修课程：数据库原理、统计学、机器学习、数据可视化\n\n## 技能\n熟悉 Python、SQL，能用 pandas 做数据清洗\n掌握 Excel 透视表，了解 Tableau 基本操作\n\n## 项目\n校园二手交易平台数据分析（课程项目，2025.03-2025.06）\n负责清洗 1.2 万条商品记录，用 Python 去重并补全缺失字段\n产出月度品类趋势报告，被选为课程展示案例\n\n食堂排队时长调研（2024.10）\n设计问卷回收 320 份，用 Excel 做交叉分析并给出窗口调整建议\n\n## 实习\n汕头某电商公司 数据运营实习生 2025.07-2025.08\n负责整理每日订单数据，输出周报\n协助搭建商品销量看板，用 Excel 与 Tableau\n\n## 其他\n英语六级 512 分，能阅读英文技术文档\n"
+  },
+  "job": {
+    "rev": 1,
+    "title": "公司：某建筑设计院",
+    "must": [
+      {
+        "id": "m1",
+        "text": "熟练使用 AutoCAD、SketchUp、Rhino 完成方案建模",
+        "why": "必备软件技能",
+        "span": [
+          110,
+          144
+        ]
+      },
+      {
+        "id": "m2",
+        "text": "具备手绘表达能力，能快速输出概念草图",
+        "why": "必备手绘能力",
+        "span": [
+          148,
+          166
+        ]
+      },
+      {
+        "id": "m3",
+        "text": "了解国家建筑设计规范与报建流程",
+        "why": "必备规范知识",
+        "span": [
+          170,
+          185
+        ]
+      },
+      {
+        "id": "m4",
+        "text": "有实际落地方案作品集（不少于 3 个项目）",
+        "why": "必备作品集",
+        "span": [
+          189,
+          210
+        ]
+      }
+    ],
+    "plus": [
+      {
+        "id": "p1",
+        "text": "建筑学专业本科及以上学历，五年制优先",
+        "why": "学历专业要求"
+      },
+      {
+        "id": "p2",
+        "text": "有甲级设计院实习经历",
+        "why": "实习经历加分"
+      },
+      {
+        "id": "p3",
+        "text": "获得过省市级建筑设计竞赛奖项",
+        "why": "获奖加分"
+      },
+      {
+        "id": "p4",
+        "text": "会使用 Lumion 或 Enscape 做效果图渲染",
+        "why": "渲染软件加分"
+      }
+    ],
+    "keywords": [
+      "Python",
+      "SQL",
+      "pandas",
+      "Excel",
+      "Tableau"
+    ],
+    "truncated": false,
+    "semantic_invalid": false
+  },
+  "resume": {
+    "skills": [
+      "Python",
+      "SQL",
+      "pandas",
+      "Excel",
+      "Tableau"
+    ],
+    "years": 0.0,
+    "edu": "本科",
+    "sentences": [
+      {
+        "sid": "s1",
+        "text": "陈小雨｜数据方向实习求职简历（虚构样例，仅用于测试）",
+        "section": "其他"
+      },
+      {
+        "sid": "s2",
+        "text": "汕头大学 数据科学与大数据技术 本科 2023.09-2027.06",
+        "section": "教育"
+      },
+      {
+        "sid": "s3",
+        "text": "主修课程：数据库原理、统计学、机器学习、数据可视化",
+        "section": "教育"
+      },
+      {
+        "sid": "s4",
+        "text": "熟悉 Python、SQL，能用 pandas 做数据清洗",
+        "section": "技能"
+      },
+      {
+        "sid": "s5",
+        "text": "掌握 Excel 透视表，了解 Tableau 基本操作",
+        "section": "技能"
+      },
+      {
+        "sid": "s6",
+        "text": "校园二手交易平台数据分析（课程项目，2025.03-2025.06）",
+        "section": "项目"
+      },
+      {
+        "sid": "s7",
+        "text": "负责清洗 1.2 万条商品记录，用 Python 去重并补全缺失字段",
+        "section": "项目"
+      },
+      {
+        "sid": "s8",
+        "text": "产出月度品类趋势报告，被选为课程展示案例",
+        "section": "项目"
+      },
+      {
+        "sid": "s9",
+        "text": "食堂排队时长调研（2024.10）",
+        "section": "项目"
+      },
+      {
+        "sid": "s10",
+        "text": "设计问卷回收 320 份，用 Excel 做交叉分析并给出窗口调整建议",
+        "section": "项目"
+      },
+      {
+        "sid": "s11",
+        "text": "汕头某电商公司 数据运营实习生 2025.07-2025.08",
+        "section": "实习"
+      },
+      {
+        "sid": "s12",
+        "text": "负责整理每日订单数据，输出周报",
+        "section": "实习"
+      },
+      {
+        "sid": "s13",
+        "text": "协助搭建商品销量看板，用 Excel 与 Tableau",
+        "section": "实习"
+      },
+      {
+        "sid": "s14",
+        "text": "英语六级 512 分，能阅读英文技术文档",
+        "section": "实习"
+      }
+    ],
+    "projects": [
+      {
+        "name": "校园二手交易平台数据分析（课程项目，20",
+        "sid_range": [
+          "s6"
+        ]
+      },
+      {
+        "name": "负责清洗 1.2 万条商品记录，用 Py",
+        "sid_range": [
+          "s7"
+        ]
+      },
+      {
+        "name": "产出月度品类趋势报告，被选为课程展示案例",
+        "sid_range": [
+          "s8"
+        ]
+      },
+      {
+        "name": "食堂排队时长调研（2024.10）",
+        "sid_range": [
+          "s9"
+        ]
+      },
+      {
+        "name": "设计问卷回收 320 份，用 Excel",
+        "sid_range": [
+          "s10"
+        ]
+      }
+    ]
+  },
+  "edits": [],
+  "match": {
+    "rev": 1,
+    "job_rev": 1,
+    "score": 0,
+    "plus_hits": 0,
+    "breakdown": [
+      {
+        "item": "熟练使用 AutoCAD、SketchUp、Rhino 完成方案建模",
+        "level": "缺失",
+        "evidence": {
+          "doc": "jd",
+          "quote": "熟练使用 AutoCAD、SketchUp、Rhino 完成方案建模",
+          "start": 110,
+          "end": 144,
+          "sid": ""
+        }
+      },
+      {
+        "item": "具备手绘表达能力，能快速输出概念草图",
+        "level": "缺失",
+        "evidence": {
+          "doc": "jd",
+          "quote": "具备手绘表达能力，能快速输出概念草图",
+          "start": 148,
+          "end": 166,
+          "sid": ""
+        }
+      },
+      {
+        "item": "了解国家建筑设计规范与报建流程",
+        "level": "缺失",
+        "evidence": {
+          "doc": "jd",
+          "quote": "了解国家建筑设计规范与报建流程",
+          "start": 170,
+          "end": 185,
+          "sid": ""
+        }
+      },
+      {
+        "item": "有实际落地方案作品集（不少于 3 个项目）",
+        "level": "缺失",
+        "evidence": {
+          "doc": "jd",
+          "quote": "有实际落地方案作品集（不少于 3 个项目）",
+          "start": 189,
+          "end": 210,
+          "sid": ""
+        }
+      }
+    ],
+    "gaps": [
+      {
+        "gap_id": "g1",
+        "desc": "缺失：熟练使用 AutoCAD、SketchUp、Rhino 完成方案建模",
+        "item": "熟练使用 AutoCAD、SketchUp、Rhino 完成方案建模",
+        "severity": "重要",
+        "status": "accepted",
+        "reason": "",
+        "evidence_sid": ""
+      },
+      {
+        "gap_id": "g2",
+        "desc": "缺失：具备手绘表达能力，能快速输出概念草图",
+        "item": "具备手绘表达能力，能快速输出概念草图",
+        "severity": "重要",
+        "status": "accepted",
+        "reason": "",
+        "evidence_sid": ""
+      },
+      {
+        "gap_id": "g3",
+        "desc": "缺失：了解国家建筑设计规范与报建流程",
+        "item": "了解国家建筑设计规范与报建流程",
+        "severity": "重要",
+        "status": "accepted",
+        "reason": "",
+        "evidence_sid": ""
+      },
+      {
+        "gap_id": "g4",
+        "desc": "缺失：有实际落地方案作品集（不少于 3 个项目）",
+        "item": "有实际落地方案作品集（不少于 3 个项目）",
+        "severity": "重要",
+        "status": "accepted",
+        "reason": "",
+        "evidence_sid": ""
+      },
+      {
+        "gap_id": "g5",
+        "desc": "加分项未体现：建筑学专业本科及以上学历，五年制优先",
+        "item": "建筑学专业本科及以上学历，五年制优先",
+        "severity": "加分",
+        "status": "accepted",
+        "reason": "",
+        "evidence_sid": ""
+      },
+      {
+        "gap_id": "g6",
+        "desc": "加分项未体现：有甲级设计院实习经历",
+        "item": "有甲级设计院实习经历",
+        "severity": "加分",
+        "status": "accepted",
+        "reason": "",
+        "evidence_sid": ""
+      },
+      {
+        "gap_id": "g7",
+        "desc": "加分项未体现：获得过省市级建筑设计竞赛奖项",
+        "item": "获得过省市级建筑设计竞赛奖项",
+        "severity": "加分",
+        "status": "accepted",
+        "reason": "",
+        "evidence_sid": ""
+      },
+      {
+        "gap_id": "g8",
+        "desc": "加分项未体现：会使用 Lumion 或 Enscape 做效果图渲染",
+        "item": "会使用 Lumion 或 Enscape 做效果图渲染",
+        "severity": "加分",
+        "status": "accepted",
+        "reason": "",
+        "evidence_sid": ""
+      }
+    ]
+  },
+  "advice": {
+    "rev": 0,
+    "match_rev": 1,
+    "rewrites": [],
+    "questions": [],
+    "actions": [
+      "差距过大，建议先补：缺失：熟练使用 AutoCAD、SketchUp、Rhino 完成方案建模",
+      "差距过大，建议先补：缺失：具备手绘表达能力，能快速输出概念草图",
+      "差距过大，建议先补：缺失：了解国家建筑设计规范与报建流程"
+    ]
+  },
+  "decisions": [],
+  "trace": [
+    {
+      "step": "parser",
+      "ms": 1693,
+      "tokens": 660,
+      "tokens_in": 446,
+      "tokens_out": 214,
+      "note": "候选行=10 must=4 plus=4 句子=14"
+    },
+    {
+      "step": "matcher",
+      "ms": 1828,
+      "tokens": 923,
+      "tokens_in": 684,
+      "tokens_out": 239,
+      "note": "score=0 命中0/部分0/缺失4 job_rev=1"
+    }
+  ],
+  "errors": [
+    {
+      "step": "parser",
+      "type": "type_overridden",
+      "detail": "1 行含加分词却被判 must，已强制改为 plus：['c2']",
+      "recovered": true
+    }
+  ],
+  "user_continue": false
+}

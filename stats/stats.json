@@ -1,13 +1,14 @@
 {
-  "updated": "2026-11-04 13:05",
-  "run_count": 2,
-  "ok": 2,
+  "updated": "2026-11-05 08:46",
+  "run_count": 3,
+  "ok": 3,
   "degraded": 0,
   "failed": 0,
-  "total_cost": 0.006779,
-  "total_tokens": 4890,
+  "total_cost": 0.008803,
+  "total_tokens": 6473,
   "daily": {
-    "2026-11-04": 0.006779
+    "2026-11-04": 0.006779,
+    "2026-11-05": 0.002024
   },
   "history": [
     {
@@ -51,8 +52,30 @@
       "errors": [
         "type_overridden"
       ]
+    },
+    {
+      "run_id": "20261105-004614-a191",
+      "date": "2026-11-05",
+      "ts": "2026-11-05 08:46:19",
+      "jd": "n3",
+      "jd_label": "建筑方案设计（明显不匹配）",
+      "stress": "dup_condition",
+      "stress_label": "重复条件",
+      "verdict": "ok",
+      "reason": "",
+      "score": 0,
+      "must_count": 4,
+      "plus_count": 4,
+      "rewrites": 0,
+      "truncated": false,
+      "tokens": 1583,
+      "cost": 0.002024,
+      "ms": 4555,
+      "errors": [
+        "type_overridden"
+      ]
     }
   ],
   "failures": [],
-  "consecutive_days": 1
+  "consecutive_days": 2
 }
