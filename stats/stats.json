@@ -1,14 +1,15 @@
 {
-  "updated": "2026-11-05 08:46",
-  "run_count": 3,
+  "updated": "2026-11-06 08:44",
+  "run_count": 4,
   "ok": 3,
-  "degraded": 0,
+  "degraded": 1,
   "failed": 0,
-  "total_cost": 0.008803,
-  "total_tokens": 6473,
+  "total_cost": 0.010544,
+  "total_tokens": 8032,
   "daily": {
     "2026-11-04": 0.006779,
-    "2026-11-05": 0.002024
+    "2026-11-05": 0.002024,
+    "2026-11-06": 0.001741
   },
   "history": [
     {
@@ -74,8 +75,31 @@
       "errors": [
         "type_overridden"
       ]
+    },
+    {
+      "run_id": "20261106-004456-61c3",
+      "date": "2026-11-06",
+      "ts": "2026-11-06 08:44:59",
+      "jd": "n4",
+      "jd_label": "散文型 JD（无硬条件）",
+      "stress": "cn_number",
+      "stress_label": "中文数字",
+      "verdict": "degraded",
+      "reason": "解析未抽到硬性条件（semantic_invalid）",
+      "score": 0,
+      "must_count": 0,
+      "plus_count": 0,
+      "rewrites": 0,
+      "truncated": false,
+      "tokens": 1559,
+      "cost": 0.001741,
+      "ms": 3180,
+      "errors": [
+        "semantic_invalid_retry",
+        "semantic_invalid"
+      ]
     }
   ],
   "failures": [],
-  "consecutive_days": 2
+  "consecutive_days": 3
 }

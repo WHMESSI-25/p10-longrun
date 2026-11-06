@@ -1,0 +1,188 @@
+{
+  "run_id": "20261106-004456-61c3",
+  "status": "done",
+  "input": {
+    "jd": "# 关于我们（软性宣传文案，故意不含明确条件）\n\n我们是一家快速成长的创业公司，团队氛围轻松，崇尚扁平化管理。\n我们相信年轻人有无限可能，希望找到志同道合、愿意一起把事情做成的伙伴。\n公司提供有竞争力的薪酬、弹性工作制、下午茶和不定期团建。\n如果你热爱生活、喜欢折腾、不满足于现状，欢迎来聊聊。\n",
+    "resume": "# 陈小雨｜数据方向实习求职简历（虚构样例，仅用于测试）\n\n## 教育\n汕头大学 数据科学与大数据技术 本科 2023.09-2027.06\n主修课程：数据库原理、统计学、机器学习、数据可视化\n\n## 技能\n熟悉 Python、SQL，能用 pandas 做数据清洗\n掌握 Excel 透视表，了解 Tableau 基本操作\n\n## 项目\n校园二手交易平台数据分析（课程项目，2025.03-2025.06）\n负责清洗 1.2 万条商品记录，用 Python 去重并补全缺失字段\n产出月度品类趋势报告，被选为课程展示案例\n\n食堂排队时长调研（2024.10）\n设计问卷回收 320 份，用 Excel 做交叉分析并给出窗口调整建议\n\n## 实习\n汕头某电商公司 数据运营实习生 2025.07-2025.08\n负责整理每日订单数据，输出周报\n协助搭建商品销量看板，用 Excel 与 Tableau\n\n## 其他\n英语六级 512 分，能阅读英文技术文档\n"
+  },
+  "job": {
+    "rev": 1,
+    "title": "我们是一家快速成长的创业公司，团队氛围轻松，崇尚扁平化管理。",
+    "must": [],
+    "plus": [],
+    "keywords": [
+      "Python",
+      "SQL",
+      "pandas",
+      "Excel",
+      "Tableau"
+    ],
+    "truncated": false,
+    "semantic_invalid": true
+  },
+  "resume": {
+    "skills": [
+      "Python",
+      "SQL",
+      "pandas",
+      "Excel",
+      "Tableau"
+    ],
+    "years": 0.0,
+    "edu": "本科",
+    "sentences": [
+      {
+        "sid": "s1",
+        "text": "陈小雨｜数据方向实习求职简历（虚构样例，仅用于测试）",
+        "section": "其他"
+      },
+      {
+        "sid": "s2",
+        "text": "汕头大学 数据科学与大数据技术 本科 2023.09-2027.06",
+        "section": "教育"
+      },
+      {
+        "sid": "s3",
+        "text": "主修课程：数据库原理、统计学、机器学习、数据可视化",
+        "section": "教育"
+      },
+      {
+        "sid": "s4",
+        "text": "熟悉 Python、SQL，能用 pandas 做数据清洗",
+        "section": "技能"
+      },
+      {
+        "sid": "s5",
+        "text": "掌握 Excel 透视表，了解 Tableau 基本操作",
+        "section": "技能"
+      },
+      {
+        "sid": "s6",
+        "text": "校园二手交易平台数据分析（课程项目，2025.03-2025.06）",
+        "section": "项目"
+      },
+      {
+        "sid": "s7",
+        "text": "负责清洗 1.2 万条商品记录，用 Python 去重并补全缺失字段",
+        "section": "项目"
+      },
+      {
+        "sid": "s8",
+        "text": "产出月度品类趋势报告，被选为课程展示案例",
+        "section": "项目"
+      },
+      {
+        "sid": "s9",
+        "text": "食堂排队时长调研（2024.10）",
+        "section": "项目"
+      },
+      {
+        "sid": "s10",
+        "text": "设计问卷回收 320 份，用 Excel 做交叉分析并给出窗口调整建议",
+        "section": "项目"
+      },
+      {
+        "sid": "s11",
+        "text": "汕头某电商公司 数据运营实习生 2025.07-2025.08",
+        "section": "实习"
+      },
+      {
+        "sid": "s12",
+        "text": "负责整理每日订单数据，输出周报",
+        "section": "实习"
+      },
+      {
+        "sid": "s13",
+        "text": "协助搭建商品销量看板，用 Excel 与 Tableau",
+        "section": "实习"
+      },
+      {
+        "sid": "s14",
+        "text": "英语六级 512 分，能阅读英文技术文档",
+        "section": "实习"
+      }
+    ],
+    "projects": [
+      {
+        "name": "校园二手交易平台数据分析（课程项目，20",
+        "sid_range": [
+          "s6"
+        ]
+      },
+      {
+        "name": "负责清洗 1.2 万条商品记录，用 Py",
+        "sid_range": [
+          "s7"
+        ]
+      },
+      {
+        "name": "产出月度品类趋势报告，被选为课程展示案例",
+        "sid_range": [
+          "s8"
+        ]
+      },
+      {
+        "name": "食堂排队时长调研（2024.10）",
+        "sid_range": [
+          "s9"
+        ]
+      },
+      {
+        "name": "设计问卷回收 320 份，用 Excel",
+        "sid_range": [
+          "s10"
+        ]
+      }
+    ]
+  },
+  "edits": [],
+  "match": {
+    "rev": 1,
+    "job_rev": 1,
+    "score": 0,
+    "plus_hits": 0,
+    "breakdown": [],
+    "gaps": []
+  },
+  "advice": {
+    "rev": 0,
+    "match_rev": 1,
+    "rewrites": [],
+    "questions": [],
+    "actions": []
+  },
+  "decisions": [],
+  "trace": [
+    {
+      "step": "parser",
+      "ms": 2118,
+      "tokens": 979,
+      "tokens_in": 800,
+      "tokens_out": 179,
+      "note": "候选行=4 must=0 plus=0 句子=14（语义空转）"
+    },
+    {
+      "step": "matcher",
+      "ms": 612,
+      "tokens": 580,
+      "tokens_in": 566,
+      "tokens_out": 14,
+      "note": "score=0 命中0/部分0/缺失0 job_rev=1"
+    }
+  ],
+  "errors": [
+    {
+      "step": "parser",
+      "type": "semantic_invalid_retry",
+      "detail": "第一轮没有任何 must，带纠正提示重试",
+      "recovered": true
+    },
+    {
+      "step": "parser",
+      "type": "semantic_invalid",
+      "detail": "重试后仍无 must，交人工确认点 1 补充",
+      "recovered": false
+    }
+  ],
+  "user_continue": false
+}
