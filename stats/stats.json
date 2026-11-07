@@ -1,15 +1,16 @@
 {
-  "updated": "2026-11-06 08:44",
-  "run_count": 4,
-  "ok": 3,
+  "updated": "2026-11-07 08:41",
+  "run_count": 5,
+  "ok": 4,
   "degraded": 1,
   "failed": 0,
-  "total_cost": 0.010544,
-  "total_tokens": 8032,
+  "total_cost": 0.018926,
+  "total_tokens": 15113,
   "daily": {
     "2026-11-04": 0.006779,
     "2026-11-05": 0.002024,
-    "2026-11-06": 0.001741
+    "2026-11-06": 0.001741,
+    "2026-11-07": 0.008382
   },
   "history": [
     {
@@ -98,8 +99,30 @@
         "semantic_invalid_retry",
         "semantic_invalid"
       ]
+    },
+    {
+      "run_id": "20261107-004134-d27d",
+      "date": "2026-11-07",
+      "ts": "2026-11-07 08:41:45",
+      "jd": "n5",
+      "jd_label": "超长噪声 JD",
+      "stress": "as_table",
+      "stress_label": "表格化",
+      "verdict": "ok",
+      "reason": "",
+      "score": 73,
+      "must_count": 3,
+      "plus_count": 2,
+      "rewrites": 4,
+      "truncated": true,
+      "tokens": 7081,
+      "cost": 0.008382,
+      "ms": 10742,
+      "errors": [
+        "type_overridden"
+      ]
     }
   ],
   "failures": [],
-  "consecutive_days": 3
+  "consecutive_days": 4
 }
