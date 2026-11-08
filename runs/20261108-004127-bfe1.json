@@ -1,0 +1,405 @@
+{
+  "run_id": "20261108-004127-bfe1",
+  "status": "done",
+  "input": {
+    "jd": "# 岗位：高级数据分析师（年限门槛样例）  /* ref: JD-REQ */\n\n公司：某互联网公司 数据中台  /* ref: JD-REQ */\n\n## 岗位要求  /* ref: JD-REQ */\n1. 本科及以上学历, 统计学, 数学, 计算机相关专业  /* ref: JD-REQ */\n2. **3 年以上**数据分析相关工作经验, 有独立负责业务线的经历  /* ref: JD-REQ */\n3. 精通 SQL, 能优化复杂查询性能  /* ref: JD-REQ */\n4. 熟练使用 Python 做数据建模与自动化  /* ref: JD-REQ */\n5. 有跨部门推动数据项目落地的经验  /* ref: JD-REQ */\n\n## 加分项  /* ref: JD-REQ */\n- 有团队管理经验  /* ref: JD-REQ */\n- 熟悉 A/B 实验设计与因果推断  /* ref: JD-REQ */\n- 有数据仓库建模经验  /* ref: JD-REQ */\n\n## 工作内容  /* ref: JD-REQ */\n负责核心业务指标体系搭建与分析支持  /* ref: JD-REQ */\n",
+    "resume": "# 陈小雨｜数据方向实习求职简历（虚构样例，仅用于测试）\n\n## 教育\n汕头大学 数据科学与大数据技术 本科 2023.09-2027.06\n主修课程：数据库原理、统计学、机器学习、数据可视化\n\n## 技能\n熟悉 Python、SQL，能用 pandas 做数据清洗\n掌握 Excel 透视表，了解 Tableau 基本操作\n\n## 项目\n校园二手交易平台数据分析（课程项目，2025.03-2025.06）\n负责清洗 1.2 万条商品记录，用 Python 去重并补全缺失字段\n产出月度品类趋势报告，被选为课程展示案例\n\n食堂排队时长调研（2024.10）\n设计问卷回收 320 份，用 Excel 做交叉分析并给出窗口调整建议\n\n## 实习\n汕头某电商公司 数据运营实习生 2025.07-2025.08\n负责整理每日订单数据，输出周报\n协助搭建商品销量看板，用 Excel 与 Tableau\n\n## 其他\n英语六级 512 分，能阅读英文技术文档\n"
+  },
+  "job": {
+    "rev": 1,
+    "title": "公司：某互联网公司 数据中台  /* ref: JD-REQ */",
+    "must": [
+      {
+        "id": "m1",
+        "text": "本科及以上学历, 统计学, 数学, 计算机相关专业  /* ref: JD-REQ */",
+        "why": "学历专业硬性",
+        "span": [
+          106,
+          150
+        ]
+      },
+      {
+        "id": "m2",
+        "text": "**3 年以上**数据分析相关工作经验, 有独立负责业务线的经历  /* ref: JD-REQ */",
+        "why": "年限硬性",
+        "span": [
+          154,
+          205
+        ]
+      },
+      {
+        "id": "m3",
+        "text": "精通 SQL, 能优化复杂查询性能  /* ref: JD-REQ */",
+        "why": "必备技能",
+        "span": [
+          209,
+          245
+        ]
+      },
+      {
+        "id": "m4",
+        "text": "熟练使用 Python 做数据建模与自动化  /* ref: JD-REQ */",
+        "why": "必备技能",
+        "span": [
+          249,
+          289
+        ]
+      },
+      {
+        "id": "m5",
+        "text": "有跨部门推动数据项目落地的经验  /* ref: JD-REQ */",
+        "why": "必备经验",
+        "span": [
+          293,
+          327
+        ]
+      },
+      {
+        "id": "m6",
+        "text": "有团队管理经验  /* ref: JD-REQ */",
+        "why": "必备经验",
+        "span": [
+          357,
+          383
+        ]
+      },
+      {
+        "id": "m7",
+        "text": "熟悉 A/B 实验设计与因果推断  /* ref: JD-REQ */",
+        "why": "必备技能",
+        "span": [
+          386,
+          421
+        ]
+      },
+      {
+        "id": "m8",
+        "text": "有数据仓库建模经验  /* ref: JD-REQ */",
+        "why": "必备经验",
+        "span": [
+          424,
+          452
+        ]
+      }
+    ],
+    "plus": [],
+    "keywords": [
+      "Python",
+      "SQL",
+      "pandas",
+      "Excel",
+      "Tableau"
+    ],
+    "truncated": false,
+    "semantic_invalid": false
+  },
+  "resume": {
+    "skills": [
+      "Python",
+      "SQL",
+      "pandas",
+      "Excel",
+      "Tableau"
+    ],
+    "years": 0.0,
+    "edu": "本科",
+    "sentences": [
+      {
+        "sid": "s1",
+        "text": "陈小雨｜数据方向实习求职简历（虚构样例，仅用于测试）",
+        "section": "其他"
+      },
+      {
+        "sid": "s2",
+        "text": "汕头大学 数据科学与大数据技术 本科 2023.09-2027.06",
+        "section": "教育"
+      },
+      {
+        "sid": "s3",
+        "text": "主修课程：数据库原理、统计学、机器学习、数据可视化",
+        "section": "教育"
+      },
+      {
+        "sid": "s4",
+        "text": "熟悉 Python、SQL，能用 pandas 做数据清洗",
+        "section": "技能"
+      },
+      {
+        "sid": "s5",
+        "text": "掌握 Excel 透视表，了解 Tableau 基本操作",
+        "section": "技能"
+      },
+      {
+        "sid": "s6",
+        "text": "校园二手交易平台数据分析（课程项目，2025.03-2025.06）",
+        "section": "项目"
+      },
+      {
+        "sid": "s7",
+        "text": "负责清洗 1.2 万条商品记录，用 Python 去重并补全缺失字段",
+        "section": "项目"
+      },
+      {
+        "sid": "s8",
+        "text": "产出月度品类趋势报告，被选为课程展示案例",
+        "section": "项目"
+      },
+      {
+        "sid": "s9",
+        "text": "食堂排队时长调研（2024.10）",
+        "section": "项目"
+      },
+      {
+        "sid": "s10",
+        "text": "设计问卷回收 320 份，用 Excel 做交叉分析并给出窗口调整建议",
+        "section": "项目"
+      },
+      {
+        "sid": "s11",
+        "text": "汕头某电商公司 数据运营实习生 2025.07-2025.08",
+        "section": "实习"
+      },
+      {
+        "sid": "s12",
+        "text": "负责整理每日订单数据，输出周报",
+        "section": "实习"
+      },
+      {
+        "sid": "s13",
+        "text": "协助搭建商品销量看板，用 Excel 与 Tableau",
+        "section": "实习"
+      },
+      {
+        "sid": "s14",
+        "text": "英语六级 512 分，能阅读英文技术文档",
+        "section": "实习"
+      }
+    ],
+    "projects": [
+      {
+        "name": "校园二手交易平台数据分析（课程项目，20",
+        "sid_range": [
+          "s6"
+        ]
+      },
+      {
+        "name": "负责清洗 1.2 万条商品记录，用 Py",
+        "sid_range": [
+          "s7"
+        ]
+      },
+      {
+        "name": "产出月度品类趋势报告，被选为课程展示案例",
+        "sid_range": [
+          "s8"
+        ]
+      },
+      {
+        "name": "食堂排队时长调研（2024.10）",
+        "sid_range": [
+          "s9"
+        ]
+      },
+      {
+        "name": "设计问卷回收 320 份，用 Excel",
+        "sid_range": [
+          "s10"
+        ]
+      }
+    ]
+  },
+  "edits": [],
+  "match": {
+    "rev": 1,
+    "job_rev": 1,
+    "score": 18,
+    "plus_hits": 0,
+    "breakdown": [
+      {
+        "item": "本科及以上学历, 统计学, 数学, 计算机相关专业  /* ref: JD-REQ */",
+        "level": "命中",
+        "evidence": {
+          "doc": "resume",
+          "quote": "汕头大学 数据科学与大数据技术 本科 2023.09-2027.06",
+          "start": 0,
+          "end": 0,
+          "sid": "s2"
+        }
+      },
+      {
+        "item": "**3 年以上**数据分析相关工作经验, 有独立负责业务线的经历  /* ref: JD-REQ */",
+        "level": "缺失",
+        "evidence": {
+          "doc": "jd",
+          "quote": "**3 年以上**数据分析相关工作经验, 有独立负责业务线的经历  /* ref: JD-REQ */",
+          "start": 154,
+          "end": 205,
+          "sid": ""
+        }
+      },
+      {
+        "item": "精通 SQL, 能优化复杂查询性能  /* ref: JD-REQ */",
+        "level": "部分",
+        "evidence": {
+          "doc": "resume",
+          "quote": "熟悉 Python、SQL，能用 pandas 做数据清洗",
+          "start": 0,
+          "end": 0,
+          "sid": "s4"
+        }
+      },
+      {
+        "item": "熟练使用 Python 做数据建模与自动化  /* ref: JD-REQ */",
+        "level": "部分",
+        "evidence": {
+          "doc": "resume",
+          "quote": "负责清洗 1.2 万条商品记录，用 Python 去重并补全缺失字段",
+          "start": 0,
+          "end": 0,
+          "sid": "s7"
+        }
+      },
+      {
+        "item": "有跨部门推动数据项目落地的经验  /* ref: JD-REQ */",
+        "level": "缺失",
+        "evidence": {
+          "doc": "jd",
+          "quote": "有跨部门推动数据项目落地的经验  /* ref: JD-REQ */",
+          "start": 293,
+          "end": 327,
+          "sid": ""
+        }
+      },
+      {
+        "item": "有团队管理经验  /* ref: JD-REQ */",
+        "level": "缺失",
+        "evidence": {
+          "doc": "jd",
+          "quote": "有团队管理经验  /* ref: JD-REQ */",
+          "start": 357,
+          "end": 383,
+          "sid": ""
+        }
+      },
+      {
+        "item": "熟悉 A/B 实验设计与因果推断  /* ref: JD-REQ */",
+        "level": "缺失",
+        "evidence": {
+          "doc": "jd",
+          "quote": "熟悉 A/B 实验设计与因果推断  /* ref: JD-REQ */",
+          "start": 386,
+          "end": 421,
+          "sid": ""
+        }
+      },
+      {
+        "item": "有数据仓库建模经验  /* ref: JD-REQ */",
+        "level": "缺失",
+        "evidence": {
+          "doc": "jd",
+          "quote": "有数据仓库建模经验  /* ref: JD-REQ */",
+          "start": 424,
+          "end": 452,
+          "sid": ""
+        }
+      }
+    ],
+    "gaps": [
+      {
+        "gap_id": "g1",
+        "desc": "缺失：**3 年以上**数据分析相关工作经验, 有独立负责业务线的经历  /* ref: JD-REQ */",
+        "item": "**3 年以上**数据分析相关工作经验, 有独立负责业务线的经历  /* ref: JD-REQ */",
+        "severity": "致命",
+        "status": "accepted",
+        "reason": "",
+        "evidence_sid": ""
+      },
+      {
+        "gap_id": "g2",
+        "desc": "部分：精通 SQL, 能优化复杂查询性能  /* ref: JD-REQ */",
+        "item": "精通 SQL, 能优化复杂查询性能  /* ref: JD-REQ */",
+        "severity": "重要",
+        "status": "accepted",
+        "reason": "",
+        "evidence_sid": "s4"
+      },
+      {
+        "gap_id": "g3",
+        "desc": "部分：熟练使用 Python 做数据建模与自动化  /* ref: JD-REQ */",
+        "item": "熟练使用 Python 做数据建模与自动化  /* ref: JD-REQ */",
+        "severity": "重要",
+        "status": "accepted",
+        "reason": "",
+        "evidence_sid": "s7"
+      },
+      {
+        "gap_id": "g4",
+        "desc": "缺失：有跨部门推动数据项目落地的经验  /* ref: JD-REQ */",
+        "item": "有跨部门推动数据项目落地的经验  /* ref: JD-REQ */",
+        "severity": "重要",
+        "status": "accepted",
+        "reason": "",
+        "evidence_sid": ""
+      },
+      {
+        "gap_id": "g5",
+        "desc": "缺失：有团队管理经验  /* ref: JD-REQ */",
+        "item": "有团队管理经验  /* ref: JD-REQ */",
+        "severity": "重要",
+        "status": "accepted",
+        "reason": "",
+        "evidence_sid": ""
+      },
+      {
+        "gap_id": "g6",
+        "desc": "缺失：熟悉 A/B 实验设计与因果推断  /* ref: JD-REQ */",
+        "item": "熟悉 A/B 实验设计与因果推断  /* ref: JD-REQ */",
+        "severity": "重要",
+        "status": "accepted",
+        "reason": "",
+        "evidence_sid": ""
+      },
+      {
+        "gap_id": "g7",
+        "desc": "缺失：有数据仓库建模经验  /* ref: JD-REQ */",
+        "item": "有数据仓库建模经验  /* ref: JD-REQ */",
+        "severity": "重要",
+        "status": "accepted",
+        "reason": "",
+        "evidence_sid": ""
+      }
+    ]
+  },
+  "advice": {
+    "rev": 0,
+    "match_rev": 1,
+    "rewrites": [],
+    "questions": [],
+    "actions": [
+      "差距过大，建议先补：缺失：**3 年以上**数据分析相关工作经验, 有独立负责业务线的经历  /* ref: JD-REQ */",
+      "差距过大，建议先补：部分：精通 SQL, 能优化复杂查询性能  /* ref: JD-REQ */",
+      "差距过大，建议先补：部分：熟练使用 Python 做数据建模与自动化  /* ref: JD-REQ */"
+    ]
+  },
+  "decisions": [],
+  "trace": [
+    {
+      "step": "parser",
+      "ms": 1956,
+      "tokens": 729,
+      "tokens_in": 520,
+      "tokens_out": 209,
+      "note": "候选行=10 must=8 plus=0 句子=14"
+    },
+    {
+      "step": "matcher",
+      "ms": 1840,
+      "tokens": 990,
+      "tokens_in": 743,
+      "tokens_out": 247,
+      "note": "score=18 命中1/部分2/缺失5 job_rev=1"
+    }
+  ],
+  "errors": [],
+  "user_continue": false
+}
