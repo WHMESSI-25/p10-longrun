@@ -1,17 +1,18 @@
 {
-  "updated": "2026-11-08 08:41",
-  "run_count": 6,
+  "updated": "2026-11-09 08:44",
+  "run_count": 7,
   "ok": 5,
-  "degraded": 1,
+  "degraded": 2,
   "failed": 0,
-  "total_cost": 0.021088,
-  "total_tokens": 16832,
+  "total_cost": 0.022336,
+  "total_tokens": 18064,
   "daily": {
     "2026-11-04": 0.006779,
     "2026-11-05": 0.002024,
     "2026-11-06": 0.001741,
     "2026-11-07": 0.008382,
-    "2026-11-08": 0.002162
+    "2026-11-08": 0.002162,
+    "2026-11-09": 0.001248
   },
   "history": [
     {
@@ -142,8 +143,31 @@
       "cost": 0.002162,
       "ms": 5225,
       "errors": []
+    },
+    {
+      "run_id": "20261109-004403-1ec0",
+      "date": "2026-11-09",
+      "ts": "2026-11-09 08:44:07",
+      "jd": "n1",
+      "jd_label": "数据分析实习（完全匹配）",
+      "stress": "no_newline",
+      "stress_label": "无换行",
+      "verdict": "degraded",
+      "reason": "解析未抽到硬性条件（semantic_invalid）",
+      "score": 0,
+      "must_count": 0,
+      "plus_count": 0,
+      "rewrites": 0,
+      "truncated": false,
+      "tokens": 1232,
+      "cost": 0.001248,
+      "ms": 3595,
+      "errors": [
+        "semantic_invalid_retry",
+        "semantic_invalid"
+      ]
     }
   ],
   "failures": [],
-  "consecutive_days": 5
+  "consecutive_days": 6
 }
