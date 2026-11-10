@@ -1,18 +1,19 @@
 {
-  "updated": "2026-11-09 08:44",
-  "run_count": 7,
-  "ok": 5,
+  "updated": "2026-11-10 08:41",
+  "run_count": 8,
+  "ok": 6,
   "degraded": 2,
   "failed": 0,
-  "total_cost": 0.022336,
-  "total_tokens": 18064,
+  "total_cost": 0.024346,
+  "total_tokens": 19639,
   "daily": {
     "2026-11-04": 0.006779,
     "2026-11-05": 0.002024,
     "2026-11-06": 0.001741,
     "2026-11-07": 0.008382,
     "2026-11-08": 0.002162,
-    "2026-11-09": 0.001248
+    "2026-11-09": 0.001248,
+    "2026-11-10": 0.00201
   },
   "history": [
     {
@@ -166,8 +167,28 @@
         "semantic_invalid_retry",
         "semantic_invalid"
       ]
+    },
+    {
+      "run_id": "20261110-004152-7731",
+      "date": "2026-11-10",
+      "ts": "2026-11-10 08:41:57",
+      "jd": "n2",
+      "jd_label": "后端开发实习（部分匹配）",
+      "stress": "zero_width",
+      "stress_label": "零宽字符",
+      "verdict": "ok",
+      "reason": "",
+      "score": 18,
+      "must_count": 6,
+      "plus_count": 2,
+      "rewrites": 0,
+      "truncated": false,
+      "tokens": 1575,
+      "cost": 0.00201,
+      "ms": 4967,
+      "errors": []
     }
   ],
   "failures": [],
-  "consecutive_days": 6
+  "consecutive_days": 7
 }
