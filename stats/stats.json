@@ -1,9 +1,9 @@
 {
-  "updated": "2026-11-13 08:48",
-  "run_count": 11,
+  "updated": "2026-11-14 08:42",
+  "run_count": 12,
   "ok": 6,
   "degraded": 3,
-  "failed": 2,
+  "failed": 3,
   "total_cost": 0.025702,
   "total_tokens": 20937,
   "daily": {
@@ -235,6 +235,17 @@
       "jd": "n5",
       "stress": "tail_inject",
       "ms": 2379
+    },
+    {
+      "run_id": "20261114-004242-ab9b",
+      "date": "2026-11-14",
+      "category": "unknown",
+      "category_cn": "未归类",
+      "detail": "HTTPError: HTTP Error 402: Payment Required",
+      "fix_hint": "没有归类的错误，看 traceback 后补分类规则",
+      "jd": "n6",
+      "stress": "authority",
+      "ms": 1535
     }
   ],
   "consecutive_days": 0
